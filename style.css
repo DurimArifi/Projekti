@@ -1,51 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
+  padding: 16px;
   background-color: #15181b; 
   font-family: "DM Sans", sans-serif;
   color: #e8eaed;
+  line-height: 1.5;
 }
 
-
-
 /* NAVIGATION BARI */
-
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #20252a; ;
-    padding: 14px 24px;
-    border-radius: 14px;
-    border: 1px solid  #555555;
-    font-family: "DM Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #20252a;
+  padding: 14px 24px;
+  border-radius: 14px;
+  border: 1px solid #555555;
+  font-family: "DM Sans", sans-serif;
+}
+
+.navbar > a {
+  font-weight: 700;
+  font-size: 1.15rem;
 }
 
 .navbar a {
-    color: #e8eaed;
-    text-decoration: none;
+  color: #e8eaed;
+  text-decoration: none;
 }
 
 .navbar nav {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
+/* TITULLI INTRO */
 .titulli {
-display: flex;
-align-items: center;
-/* TITULLI INTRO */}
+  display: flex;
+  align-items: center;
+}
 
 .intro {
-    max-width: 800px;
-    margin: 140px auto 0;
-    padding: 0 24px;
-    text-align: center;
+  max-width: 800px;
+  margin: 140px auto 0;
+  padding: 0 24px;
+  text-align: center;
 }
 
 .intro h1 {
-    font-size: 42px;
+  font-size: 42px;
 }
 
 .intro p {
-    font-size: 20px;
-    color: #aab1b8;
+  font-size: 20px;
+  color: #aab1b8;
+}
+
+footer {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #20252a;
+  border: 1px solid #555555;
+  border-radius: 14px;
+  padding: 14px 24px;
+  text-align: center;
+  color: #aab1b8;
+  font-size: 0.9rem;
 }
