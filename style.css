@@ -1,7 +1,11 @@
 body {
   background-color: #15181b; 
+  font-family: "DM Sans", sans-serif;
 }
 
+
+
+/* NAVIGATION BARI */
 
 .navbar {
     display: flex;
@@ -27,4 +31,20 @@ body {
 .titulli {
 display: flex;
 align-items: center;
+/* TITULLI INTRO */}
+
+.intro {
+    max-width: 800px;
+    margin: 140px auto 0;
+    padding: 0 24px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 42px;
+}
+
+.intro p {
+    font-size: 20px;
+    color: #555555;
 }
