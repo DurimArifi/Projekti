@@ -1,6 +1,7 @@
 body {
   background-color: #15181b; 
   font-family: "DM Sans", sans-serif;
+  color: #e8eaed;
 }
 
 
@@ -11,15 +12,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1f3f5;
+    background-color: #20252a; ;
     padding: 14px 24px;
     border-radius: 14px;
-    border: 1px solid #777777;
+    border: 1px solid  #555555;
     font-family: "DM Sans", sans-serif;
 }
 
 .navbar a {
-    color: #222222;
+    color: #e8eaed;
     text-decoration: none;
 }
 
@@ -46,5 +47,5 @@ align-items: center;
 
 .intro p {
     font-size: 20px;
-    color: #555555;
+    color: #aab1b8;
 }
