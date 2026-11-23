@@ -1,3 +1,8 @@
+body {
+  background-color: #15181b; 
+}
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -17,4 +22,9 @@
 .navbar nav {
     display: flex;
     gap: 20px;
+}
+
+.titulli {
+display: flex;
+align-items: center;
 }
