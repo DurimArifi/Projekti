@@ -5,6 +5,9 @@
 body {
   margin: 0;
   padding: 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: #15181b; 
   font-family: "DM Sans", sans-serif;
   color: #e8eaed;
@@ -45,28 +48,69 @@ body {
   flex-wrap: wrap;
 }
 
-/* TITULLI INTRO */
-.titulli {
-  display: flex;
-  align-items: center;
+/* MAIN DHE TITULLI INTRO */
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 0 32px;
 }
 
 .intro {
   max-width: 800px;
-  margin: 140px auto 0;
-  padding: 0 24px;
+  margin: 56px auto 36px;
+  padding: 0 8px;
   text-align: center;
 }
 
 .intro h1 {
   font-size: 42px;
+  line-height: 1.15;
+  margin: 0 0 10px;
 }
 
 .intro p {
   font-size: 20px;
   color: #aab1b8;
+  margin: 0;
 }
 
+/* FILTRAT */
+.filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.filters > * {
+  flex: 1 1 180px;
+}
+
+.filters input,
+.filters select {
+  font: inherit;
+  color: #e8eaed;
+  background-color: #15181b;
+  border: 1px solid #343b42;
+  border-radius: 8px;
+  padding: 9px 10px;
+  width: 100%;
+}
+
+.filters input::placeholder {
+  color: #aab1b8;
+}
+
+.filters input:focus,
+.filters select:focus {
+  outline: 2px solid #7aa7d6;
+  outline-offset: 2px;
+}
+
+/* FOOTER */
 footer {
   width: 100%;
   max-width: 1000px;
